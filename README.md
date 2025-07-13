@@ -40,7 +40,7 @@ This project scrapes a Reddit user's posts and comments, analyzes their writing,
 
 ```bash
 
-git clone https://github.com/yourusername/reddit-persona.git
+git clone https://github.com/amantiwari-java/reddit-persona.git
 
 cd reddit-persona
 

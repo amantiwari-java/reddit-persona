@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 
 # Load the .env file
 load_dotenv()
+print("📦 Reddit Client ID:", os.getenv("REDDIT_CLIENT_ID"))
+
 
 # Setup Reddit API
 reddit = praw.Reddit(
