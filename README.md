@@ -19,15 +19,14 @@ This project scrapes a Reddit user's posts and comments, analyzes their writing,
 
 ### 1. Clone the Repo
 
-```bash
+
 git clone https://github.com/amantiwari-java/reddit-persona.git
 cd reddit-persona
+
 2. Create a .env File
 Create a .env file in the root directory and add your API credentials:
 
-env
-Copy
-Edit
+ 
 OPENROUTER_API_KEY=your_openrouter_api_key
 REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
@@ -37,14 +36,12 @@ REDDIT_USER_AGENT=your_custom_user_agent
 3. Install Dependencies
 Install the required Python packages using pip:
 
-bash
-Copy
-Edit
+ 
+ 
 pip install -r requirements.txt
+
 4. Run the Script
-bash
-Copy
-Edit
+ 
 python main.py
 This will:
 
@@ -72,9 +69,7 @@ Personality Traits
 Citations from actual posts/comments
 
 🧪 Sample Output
-vbnet
-Copy
-Edit
+ 
 **User Persona:**
 
 Name: Alex (assumed based on username "overpaidengineer")  
@@ -84,6 +79,7 @@ Occupation: iOS Developer
 Citations:
 - [POST] Creating an AR shopping assistant in VisionOS  
 - [COMMENT] “Consumerism makes us numb...”  
+
 🛠 Tech Stack
 Python
 
